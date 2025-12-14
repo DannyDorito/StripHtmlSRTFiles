@@ -50,7 +50,7 @@ partial class Program
 
         //strip all html tags
         var strippedFile = StripHtmlRegex().Replace(file, string.Empty);
-        File.WriteAllText(overwriteFile ? outputFilePath : srtFilePath, strippedFile);
+        File.WriteAllText(overwriteFile ? srtFilePath : outputFilePath, strippedFile);
     }
 
 

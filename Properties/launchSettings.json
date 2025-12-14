@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "StripHtmlSRTFiles": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\ericm\\Documents\\GitHub\\StripHtmlSRTFiles\\last day of drops.srt\" \"true\""
+    }
+  }
+}
