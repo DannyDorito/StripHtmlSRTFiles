@@ -41,7 +41,7 @@ partial class Program
             return;
         }
 
-        string outputFilePath = Path.Combine(
+        var outputFilePath = Path.Combine(
             directoryName,
             Path.GetFileNameWithoutExtension(srtFilePath) + "_stripped.srt"
         );
